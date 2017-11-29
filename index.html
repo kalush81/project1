@@ -1,0 +1,29 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<script src="https://ajax.googleapis.com/ajax/libs/jquery/3.2.1/jquery.min.js"></script>
+	<title>kosmos</title>
+	<link rel="stylesheet" type="text/css" href="main.css">
+</head>
+<body>
+	<div id="main">
+	  <div class="window">
+		    <div id="container">
+			   <div class="BOX"><p>No nie wiem jaki. Jakis fajny :-)</p><h1>X</h1></div>
+			
+		   </div>
+
+	  </div>
+	</div>
+	<button>Click Me</button>
+	<script> 
+$(document).ready(function(){
+    $("button").click(function(){
+        $(".window").animate({
+            height: 'toggle'
+        });
+    });
+});
+</script>
+</body>
+</html>
